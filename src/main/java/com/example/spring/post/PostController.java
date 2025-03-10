@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class PostController {
-    
+
     // 게시글 등록 (화면, GET)
     @RequestMapping(value = "/posts/create", method = RequestMethod.GET)
     public String create() {
-        return "posts/create";
+        return "post/create";
     }
 }
